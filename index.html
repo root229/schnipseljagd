@@ -12,6 +12,12 @@
         nav ul { list-style:none; margin:0; padding:0; display:flex; gap:.5rem; }
         main { padding:1rem; background: #181818;}
         .container { max-width:900px; margin:0 auto; }
+        .responsive-img {
+        max-width: 100%; /* passt sich an die Breite des Geräts/Containers an */
+        height: auto;    /* hält die Proportionen */
+        width: auto;     /* verhindert „größer als Original“ */
+        display: block;  /* optional, verhindert komische Lücken */
+    }
     </style>
 </head>
 <body>
@@ -21,7 +27,7 @@
 
     <main>
         <p>Wenn du das hier liest, dann hast du das Rätsel wahrscheinlich gelöst und willst zum nächsten.</p>
-        <img src="gadse.jpg">
+        <img src="gadse.jpg" class="responsive-img">
         <p>Klicke auf den Button um das Lösungswort einzugeben!</p>
         <button onclick="lösungswortChecken()">Lösungswort eingeben</button>
     </main>
@@ -34,4 +40,5 @@
 
     <script src="java.js"></script>
 </body>
+
 </html>
