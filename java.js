@@ -10,6 +10,6 @@ function lösungswortChecken() {
             window.open("https://forms.gle/yroMJwJoj5cTbTXw9", "_blank")
         }
         if (lösungswort.toLowerCase() === "musikraum") {
-            window.open("https://root229.github.io/info_und_anleitung/", "_blank")
+            window.open("https://root229.github.io/weiterleitung1/", "_blank")
         }
     }
