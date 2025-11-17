@@ -9,4 +9,7 @@ function lösungswortChecken() {
         else if (lösungswort.toLowerCase() === "usikra") {
             window.open("https://forms.gle/yroMJwJoj5cTbTXw9", "_blank")
         }
+        else if (lösungswort.toLowerCase() === "musikraum") {
+            window.open("https://root229.github.io/Info_und_Anleitung/", "_blank")
+        }
     }
